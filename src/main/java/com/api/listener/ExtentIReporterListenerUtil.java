@@ -43,7 +43,7 @@ public class ExtentIReporterListenerUtil implements IReporter {
             if(result.size()==0){
                 continue;
             }
-            //统计suite下的成功、失败、跳过的总用例数
+            //统计suite下成功、失败、跳过的总用例数
             int suiteFailSize=0;
             int suitePassSize=0;
             int suiteSkipSize=0;
