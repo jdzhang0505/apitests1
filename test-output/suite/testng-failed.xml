@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.api.listener.ExtentIReporterListenerUtil"/>
+  </listeners>
+  <test thread-count="1" name="mtxshop(failed)" parallel="tests">
+    <classes>
+      <class name="com.crm.fenceng.testcases.AddContractTests">
+        <methods>
+          <include name="test001_addContract"/>
+          <include name="afterClass"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.crm.fenceng.testcases.AddContractTests -->
+    </classes>
+  </test> <!-- mtxshop(failed) -->
+</suite> <!-- Failed suite [suite] -->

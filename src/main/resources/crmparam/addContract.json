@@ -1,0 +1,20 @@
+{
+	"entity": {
+		"num": "1111113",
+		"name": "合同3",
+		"customer_id": 9,
+		"business_id": "",
+		"order_date": "2020-04-12",
+		"money": "",
+		"start_time": "2020-04-22",
+		"end_time": "2022-04-21",
+		"contacts_id": 3,
+		"company_user_id": "3",
+		"remark": "aaaa",
+		"totalPrice": 0,
+		"discountRate": 0
+	},
+	"field": [],
+	"product": [],
+	"checkUserId": 3
+}

@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>TestNG:  mtxshop</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>mtxshop</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 22 16:45:53 CST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>10 seconds (10657 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.fenceng.testcases.AddContractTests.test001_addContract()'><b>test001_addContract</b><br>Test class: com.crm.fenceng.testcases.AddContractTests<br>Test method: 正常添加合同<br/>
+<a href="#Output-1257449343" onClick='toggleBox("Output-1257449343", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1257449343" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1257449343">
+uri:http://192.168.96.16:8090/CrmContacts/addOrUpdate<br/>
+header:Admin-Token=9c272cb278db4439b077ad78fce9663a<br/>
+param:{"entity":{"address":"天津","post":"总经理","next_time":"2021-04-23 16:03:47","name":"dd","mobile":"18098909090","telephone":"01023456789","remark":"这是备注","customer_id":"236","email":"hdd@163.com"}}<br/>
+response:{"code":0}<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [0] but found [0]
+	at com.crm.fenceng.testcases.AddContractTests.test001_addContract(AddContractTests.java:20)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1257449343", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1257449343'><pre>java.lang.AssertionError: expected [0] but found [0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at com.crm.fenceng.testcases.AddContractTests.test001_addContract(AddContractTests.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.crm.fenceng.testcases.AddContractTests@1d057a39</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.fenceng.testcases.AddCustomerTests.test001_AddCustomer()'><b>test001_AddCustomer</b><br>Test class: com.crm.fenceng.testcases.AddCustomerTests<br>Test method: 正常添加客户<br/>
+<a href="#Output-435153224" onClick='toggleBox("Output-435153224", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-435153224" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-435153224">
+uri:http://192.168.96.16:8090/CrmCustomer/addOrUpdate<br/>
+header:Admin-Token=f95cdbc2cea341c594b08758512c8387<br/>
+param:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"客户123","lat":""}}<br/>
+response:{"code":0,"data":{"customerName":"客户123","customerId":236}}<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.crm.fenceng.testcases.AddCustomerTests@475530b9</td></tr>
+</table><p>
+</body>
+</html>

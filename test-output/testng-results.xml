@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[uri:http://192.168.96.16:8090/login]]>
+    </line>
+    <line>
+      <![CDATA[params:password=123456]]>
+    </line>
+    <line>
+      <![CDATA[params:username=admin]]>
+    </line>
+    <line>
+      <![CDATA[response:{"code":0,"Admin-Token":"f95cdbc2cea341c594b08758512c8387","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2021-12-23 00:45:53","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"172.25.233.43","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}}]]>
+    </line>
+    <line>
+      <![CDATA[uri:http://192.168.96.16:8090/CrmCustomer/addOrUpdate]]>
+    </line>
+    <line>
+      <![CDATA[header:Admin-Token=f95cdbc2cea341c594b08758512c8387]]>
+    </line>
+    <line>
+      <![CDATA[param:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"客户123","lat":""}}]]>
+    </line>
+    <line>
+      <![CDATA[response:{"code":0,"data":{"customerName":"客户123","customerId":236}}]]>
+    </line>
+    <line>
+      <![CDATA[uri:http://192.168.96.16:8090/login]]>
+    </line>
+    <line>
+      <![CDATA[params:password=123456]]>
+    </line>
+    <line>
+      <![CDATA[params:username=admin]]>
+    </line>
+    <line>
+      <![CDATA[response:{"code":0,"Admin-Token":"9c272cb278db4439b077ad78fce9663a","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2021-12-23 00:45:58","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"172.25.233.43","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}}]]>
+    </line>
+    <line>
+      <![CDATA[uri:http://192.168.96.16:8090/CrmContacts/addOrUpdate]]>
+    </line>
+    <line>
+      <![CDATA[header:Admin-Token=9c272cb278db4439b077ad78fce9663a]]>
+    </line>
+    <line>
+      <![CDATA[param:{"entity":{"address":"天津","post":"总经理","next_time":"2021-04-23 16:03:47","name":"dd","mobile":"18098909090","telephone":"01023456789","remark":"这是备注","customer_id":"236","email":"hdd@163.com"}}]]>
+    </line>
+    <line>
+      <![CDATA[response:{"code":0}]]>
+    </line>
+  </reporter-output>
+  <suite name="suite" duration-ms="10657" started-at="2021-12-22T08:45:53Z" finished-at="2021-12-22T08:46:04Z">
+    <groups>
+    </groups>
+    <test name="mtxshop" duration-ms="10657" started-at="2021-12-22T08:45:53Z" finished-at="2021-12-22T08:46:04Z">
+      <class name="com.crm.fenceng.testcases.AddCustomerTests">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.crm.fenceng.testcases.AddCustomerTests@475530b9]" name="init" is-config="true" duration-ms="5231" started-at="2021-12-22T08:45:53Z" finished-at="2021-12-22T08:45:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[uri:http://192.168.96.16:8090/login]]>
+            </line>
+            <line>
+              <![CDATA[params:password=123456]]>
+            </line>
+            <line>
+              <![CDATA[params:username=admin]]>
+            </line>
+            <line>
+              <![CDATA[response:{"code":0,"Admin-Token":"f95cdbc2cea341c594b08758512c8387","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2021-12-23 00:45:53","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"172.25.233.43","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test001_AddCustomer()[pri:0, instance:com.crm.fenceng.testcases.AddCustomerTests@475530b9]" name="test001_AddCustomer" duration-ms="1799" started-at="2021-12-22T08:45:58Z" description="正常添加客户" finished-at="2021-12-22T08:46:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[uri:http://192.168.96.16:8090/CrmCustomer/addOrUpdate]]>
+            </line>
+            <line>
+              <![CDATA[header:Admin-Token=f95cdbc2cea341c594b08758512c8387]]>
+            </line>
+            <line>
+              <![CDATA[param:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"客户123","lat":""}}]]>
+            </line>
+            <line>
+              <![CDATA[response:{"code":0,"data":{"customerName":"客户123","customerId":236}}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test001_AddCustomer -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.crm.fenceng.testcases.AddCustomerTests@475530b9]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-12-22T08:46:00Z" finished-at="2021-12-22T08:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.crm.fenceng.testcases.AddCustomerTests -->
+      <class name="com.crm.fenceng.testcases.AddContractTests">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.crm.fenceng.testcases.AddContractTests@1d057a39]" name="init" is-config="true" duration-ms="3003" started-at="2021-12-22T08:46:00Z" finished-at="2021-12-22T08:46:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[uri:http://192.168.96.16:8090/login]]>
+            </line>
+            <line>
+              <![CDATA[params:password=123456]]>
+            </line>
+            <line>
+              <![CDATA[params:username=admin]]>
+            </line>
+            <line>
+              <![CDATA[response:{"code":0,"Admin-Token":"9c272cb278db4439b077ad78fce9663a","user":{"deptName":"办公室","img":"","createTime":"2019-02-13 15:43:26","lastLoginTime":"2021-12-23 00:45:58","num":"390823685766627","sex":null,"mobile":"12312341234","realname":"admin","parentName":null,"post":"1","userId":3,"parentId":0,"lastLoginIp":"172.25.233.43","deptId":1,"email":null,"username":"admin","status":1},"auth":{"oa":{"book":{"read":true},"announcement":{"save":true,"update":true,"delete":true}},"work":{"task":{"save":true},"work":{"update":true},"taskClass":{"save":true,"update":true,"delete":true}},"bi":{"product":{"read":true},"oa":{"read":true},"business":{"read":true},"achievement":{"read":true},"contract":{"read":true},"ranking":{"read":true},"portrait":{"read":true},"customer":{"read":true}},"project":{"projectManage":{"save":true}},"crm":{"product":{"read":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"status":true},"business":{"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"leads":{"transform":true,"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"contract":{"discard":true,"read":true,"transfer":true,"teamsave":true,"save":true,"update":true,"index":true,"delete":true},"pool":{"receive":true,"excelexport":true,"index":true,"distribute":true},"receivables":{"read":true,"save":true,"update":true,"index":true,"delete":true},"contacts":{"read":true,"transfer":true,"excelexport":true,"save":true,"update":true,"index":true,"excelimport":true,"delete":true},"customer":{"read":true,"transfer":true,"teamsave":true,"excelexport":true,"save":true,"update":true,"index":true,"lock":true,"excelimport":true,"dealStatus":true,"putinpool":true,"delete":true}},"manage":{"oa":{"examine":true},"system":{"read":true,"update":true},"examineFlow":{"update":true},"work":{"update":true},"permission":{"update":true},"configSet":{"read":true,"update":true},"users":{"deptSave":true,"deptDelete":true,"read":true,"userEnables":true,"userUpdate":true,"userSave":true,"deptUpdate":true},"crm":{"field":true,"achievement":true,"pool":true,"setting":true}}}}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="test001_addContract()[pri:0, instance:com.crm.fenceng.testcases.AddContractTests@1d057a39]" name="test001_addContract" duration-ms="605" started-at="2021-12-22T08:46:03Z" description="正常添加合同" finished-at="2021-12-22T08:46:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0] but found [0]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:442)
+at com.crm.fenceng.testcases.AddContractTests.test001_addContract(AddContractTests.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[uri:http://192.168.96.16:8090/CrmContacts/addOrUpdate]]>
+            </line>
+            <line>
+              <![CDATA[header:Admin-Token=9c272cb278db4439b077ad78fce9663a]]>
+            </line>
+            <line>
+              <![CDATA[param:{"entity":{"address":"天津","post":"总经理","next_time":"2021-04-23 16:03:47","name":"dd","mobile":"18098909090","telephone":"01023456789","remark":"这是备注","customer_id":"236","email":"hdd@163.com"}}]]>
+            </line>
+            <line>
+              <![CDATA[response:{"code":0}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test001_addContract -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.crm.fenceng.testcases.AddContractTests@1d057a39]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-12-22T08:46:04Z" finished-at="2021-12-22T08:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.crm.fenceng.testcases.AddContractTests -->
+    </test> <!-- mtxshop -->
+  </suite> <!-- suite -->
+</testng-results>

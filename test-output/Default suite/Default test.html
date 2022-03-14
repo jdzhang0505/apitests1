@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 21 16:55:15 CST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4570 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.fenceng.testcases.AddCustomerTests.test001_AddCustomer()'><b>test001_AddCustomer</b><br>Test class: com.crm.fenceng.testcases.AddCustomerTests<br>Test method: 正常添加客户<br/>
+<a href="#Output-365590665" onClick='toggleBox("Output-365590665", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-365590665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-365590665">
+uri:http://192.168.96.16:8090/CrmCustomer/addOrUpdate<br/>
+header:Admin-Token=041103fbc8d64c948336d596487220a9<br/>
+param:{"entity":{"website":"http://testfan.cn","address":"北京市,北京城区,昌平区","next_time":"2020-04-02 00:00:00","lng":"","mobile":"18991112345","detailAddress":"霍营地铁","telephone":"01028375678","remark":"这是备注","location":"","customer_name":"客户123","lat":""}}<br/>
+response:{"code":0,"data":{"customerName":"客户123","customerId":235}}<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.crm.fenceng.testcases.AddCustomerTests@8bd1b6a</td></tr>
+</table><p>
+</body>
+</html>
