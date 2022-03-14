@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
  
 /**
- * 加解密工具类，公钥和私钥请找开发咨询
+ * 加解密工具类，公钥和私钥找开发咨询
  *
  */
 public class EncryptionUtil 
